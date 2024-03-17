@@ -1,0 +1,977 @@
+??:??:?? **** Rebuild of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams.o" "..\\src\\InterviewExams.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams.o" "..\\src\\InterviewExams.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams.o" "..\\src\\InterviewExams.c" 
+..\src\InterviewExams.c: In function 'main':
+..\src\InterviewExams.c:29:38: warning: unknown conversion type character '\x09' in format [-Wformat=]
+   29 |         printf("Before: x = %d\ty = %\tz = %d\n",a.x,a.y,a.z);
+      |                                      ^~
+..\src\InterviewExams.c:29:16: warning: too many arguments for format [-Wformat-extra-args]
+   29 |         printf("Before: x = %d\ty = %\tz = %d\n",a.x,a.y,a.z);
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams.o" "..\\src\\InterviewExams.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams.o" "..\\src\\InterviewExams.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams.o" "..\\src\\InterviewExams.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams2.o" "..\\src\\InterviewExams2.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams2.o" "..\\src\\InterviewExams2.c" 
+..\src\InterviewExams2.c:21:31: warning: 'struct Date' declared inside parameter list will not be visible outside of this definition or declaration
+   21 | void funAssignToStruct(struct Date * ptr, int a, int b, int c);
+      |                               ^~~~
+..\src\InterviewExams2.c: In function 'main':
+..\src\InterviewExams2.c:30:27: warning: passing argument 1 of 'funAssignToStruct' from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         funAssignToStruct(&date2, 2024, 3, 1);
+      |                           ^~~~~~
+      |                           |
+      |                           Date *
+..\src\InterviewExams2.c:21:38: note: expected 'struct Date *' but argument is of type 'Date *'
+   21 | void funAssignToStruct(struct Date * ptr, int a, int b, int c);
+      |                        ~~~~~~~~~~~~~~^~~
+..\src\InterviewExams2.c:24:14: warning: variable 'date1' set but not used [-Wunused-but-set-variable]
+   24 |         Date date1, date2;
+      |              ^~~~~
+..\src\InterviewExams2.c: At top level:
+..\src\InterviewExams2.c:37:31: warning: 'struct Date' declared inside parameter list will not be visible outside of this definition or declaration
+   37 | void funAssignToStruct(struct Date * ptr, int a, int b, int c)
+      |                               ^~~~
+..\src\InterviewExams2.c:37:6: error: conflicting types for 'funAssignToStruct'; have 'void(struct Date *, int,  int,  int)'
+   37 | void funAssignToStruct(struct Date * ptr, int a, int b, int c)
+      |      ^~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:21:6: note: previous declaration of 'funAssignToStruct' with type 'void(struct Date *, int,  int,  int)'
+   21 | void funAssignToStruct(struct Date * ptr, int a, int b, int c);
+      |      ^~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c: In function 'funAssignToStruct':
+..\src\InterviewExams2.c:39:13: error: invalid use of undefined type 'struct Date'
+   39 |         ptr -> yr = a;
+      |             ^~
+..\src\InterviewExams2.c:40:13: error: invalid use of undefined type 'struct Date'
+   40 |         ptr -> month = b;
+      |             ^~
+..\src\InterviewExams2.c:41:13: error: invalid use of undefined type 'struct Date'
+   41 |         ptr -> day = c;
+      |             ^~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams2.o" "..\\src\\InterviewExams2.c" 
+..\src\InterviewExams2.c: In function 'main':
+..\src\InterviewExams2.c:24:14: warning: variable 'date1' set but not used [-Wunused-but-set-variable]
+   24 |         Date date1, date2;
+      |              ^~~~~
+..\src\InterviewExams2.c:29:9: warning: 'date2.day' is used uninitialized [-Wuninitialized]
+   29 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:24:21: note: 'date2' declared here
+   24 |         Date date1, date2;
+      |                     ^~~~~
+..\src\InterviewExams2.c:29:9: warning: 'date2.month' is used uninitialized [-Wuninitialized]
+   29 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:24:21: note: 'date2' declared here
+   24 |         Date date1, date2;
+      |                     ^~~~~
+..\src\InterviewExams2.c:29:9: warning: 'date2.yr' is used uninitialized [-Wuninitialized]
+   29 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:24:21: note: 'date2' declared here
+   24 |         Date date1, date2;
+      |                     ^~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams2.o" "..\\src\\InterviewExams2.c" 
+..\src\InterviewExams2.c: In function 'main':
+..\src\InterviewExams2.c:24:14: warning: variable 'date1' set but not used [-Wunused-but-set-variable]
+   24 |         Date date1;
+      |              ^~~~~
+..\src\InterviewExams2.c:30:9: warning: 'date2.day' is used uninitialized [-Wuninitialized]
+   30 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:25:14: note: 'date2' declared here
+   25 |         Date date2;
+      |              ^~~~~
+..\src\InterviewExams2.c:30:9: warning: 'date2.month' is used uninitialized [-Wuninitialized]
+   30 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:25:14: note: 'date2' declared here
+   25 |         Date date2;
+      |              ^~~~~
+..\src\InterviewExams2.c:30:9: warning: 'date2.yr' is used uninitialized [-Wuninitialized]
+   30 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:25:14: note: 'date2' declared here
+   25 |         Date date2;
+      |              ^~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams2.o" "..\\src\\InterviewExams2.c" 
+..\src\InterviewExams2.c: In function 'main':
+..\src\InterviewExams2.c:24:14: warning: variable 'date1' set but not used [-Wunused-but-set-variable]
+   24 |         Date date1;
+      |              ^~~~~
+..\src\InterviewExams2.c:31:9: warning: 'date2.day' is used uninitialized [-Wuninitialized]
+   31 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:28:14: note: 'date2' declared here
+   28 |         Date date2;
+      |              ^~~~~
+..\src\InterviewExams2.c:31:9: warning: 'date2.month' is used uninitialized [-Wuninitialized]
+   31 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:28:14: note: 'date2' declared here
+   28 |         Date date2;
+      |              ^~~~~
+..\src\InterviewExams2.c:31:9: warning: 'date2.yr' is used uninitialized [-Wuninitialized]
+   31 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:28:14: note: 'date2' declared here
+   28 |         Date date2;
+      |              ^~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" 
+??:??:?? **** Cleaning Selected Files of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+Debug/src/InterviewExams2.o deleted.
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams2.o" "..\\src\\InterviewExams2.c" 
+..\src\InterviewExams2.c: In function 'main':
+..\src\InterviewExams2.c:24:14: warning: variable 'date1' set but not used [-Wunused-but-set-variable]
+   24 |         Date date1;
+      |              ^~~~~
+..\src\InterviewExams2.c:31:9: warning: 'date2.day' is used uninitialized [-Wuninitialized]
+   31 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:28:14: note: 'date2' declared here
+   28 |         Date date2;
+      |              ^~~~~
+..\src\InterviewExams2.c:31:9: warning: 'date2.month' is used uninitialized [-Wuninitialized]
+   31 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:28:14: note: 'date2' declared here
+   28 |         Date date2;
+      |              ^~~~~
+..\src\InterviewExams2.c:31:9: warning: 'date2.yr' is used uninitialized [-Wuninitialized]
+   31 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:28:14: note: 'date2' declared here
+   28 |         Date date2;
+      |              ^~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams2.o" "..\\src\\InterviewExams2.c" 
+..\src\InterviewExams2.c: In function 'main':
+..\src\InterviewExams2.c:24:14: warning: variable 'date1' set but not used [-Wunused-but-set-variable]
+   24 |         Date date1 = {1,2,3};
+      |              ^~~~~
+..\src\InterviewExams2.c:31:9: warning: 'date2.day' is used uninitialized [-Wuninitialized]
+   31 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:28:14: note: 'date2' declared here
+   28 |         Date date2;
+      |              ^~~~~
+..\src\InterviewExams2.c:31:9: warning: 'date2.month' is used uninitialized [-Wuninitialized]
+   31 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:28:14: note: 'date2' declared here
+   28 |         Date date2;
+      |              ^~~~~
+..\src\InterviewExams2.c:31:9: warning: 'date2.yr' is used uninitialized [-Wuninitialized]
+   31 |         printf("Year = %d\t Month = %d\t Day = %d\n", date2.yr,date2.month, date2.day );
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\InterviewExams2.c:28:14: note: 'date2' declared here
+   28 |         Date date2;
+      |              ^~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams2.o" "..\\src\\InterviewExams2.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExams2.o" "..\\src\\InterviewExams2.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+Info: Nothing to build for InterviewExams
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+Info: Nothing to build for InterviewExams
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsStrcpyAndStrDup.o" "..\\src\\InterviewExamsStrcpyAndStrDup.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\InterviewExamsTryFgets.o: in function `main':
+D:\Simple Project To Recap\InterviewExams\Debug/../src/InterviewExamsTryFgets.c:5: multiple definition of `main'; src\InterviewExamsStrcpyAndStrDup.o:D:\Simple Project To Recap\InterviewExams\Debug/../src/InterviewExamsStrcpyAndStrDup.c:13: first defined here
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsTryFgets.o" "..\\src\\InterviewExamsTryFgets.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsStrcpyAndStrDup.o" "..\\src\\InterviewExamsStrcpyAndStrDup.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsStrcpyAndStrDup.o" "..\\src\\InterviewExamsStrcpyAndStrDup.c" 
+..\src\InterviewExamsStrcpyAndStrDup.c: In function 'main':
+..\src\InterviewExamsStrcpyAndStrDup.c:18:11: error: assignment to expression with array type
+   18 |         b = strdup(a);
+      |           ^
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsStrcpyAndStrDup.o" "..\\src\\InterviewExamsStrcpyAndStrDup.c" 
+..\src\InterviewExamsStrcpyAndStrDup.c: In function 'main':
+..\src\InterviewExamsStrcpyAndStrDup.c:18:9: warning: ignoring return value of 'strdup' declared with attribute 'warn_unused_result' [-Wunused-result]
+   18 |         strdup(a);
+      |         ^~~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsStrcpyAndStrDup.o" "..\\src\\InterviewExamsStrcpyAndStrDup.c" 
+..\src\InterviewExamsStrcpyAndStrDup.c: In function 'main':
+..\src\InterviewExamsStrcpyAndStrDup.c:17:9: warning: 'b' is used uninitialized [-Wuninitialized]
+   17 |         printf("a = %s\nb = %s\n\n", a,b);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsStrcpyAndStrDup.o" "..\\src\\InterviewExamsStrcpyAndStrDup.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:34: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:34: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:44: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                            ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:44: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:54: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                      ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:54: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   24 |         printf("Ans of 5 + 6 is: %.2f\n", **ArrayOfPtrs);
+      |                                  ~~~^     ~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+..\src\InterviewExamsFunctionPtr.c:25:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   25 |         printf("Ans of 5 - 6 is: %.2f\n", **(ArrayOfPtrs+1));
+      |                                  ~~~^     ~~~~~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+..\src\InterviewExamsFunctionPtr.c:26:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   26 |         printf("Ans of 5 * 6 is: %.2f\n", **(ArrayOfPtrs+2));
+      |                                  ~~~^     ~~~~~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\InterviewExamsStrcpyAndStrDup.o: in function `main':
+D:\Simple Project To Recap\InterviewExams\Debug/../src/InterviewExamsStrcpyAndStrDup.c:13: multiple definition of `main'; src\InterviewExamsFunctionPtr.o:D:\Simple Project To Recap\InterviewExams\Debug/../src/InterviewExamsFunctionPtr.c:16: first defined here
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsStrcpyAndStrDup.o" "..\\src\\InterviewExamsStrcpyAndStrDup.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:34: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:34: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:44: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                            ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:44: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:54: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                      ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:54: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:46: error: called object is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n", (*(*ArrayOfPtrs)(5,6)));
+      |                                             ~^~~~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:25:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   25 |         printf("Ans of 5 - 6 is: %.2f\n", **(ArrayOfPtrs+1));
+      |                                  ~~~^     ~~~~~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+..\src\InterviewExamsFunctionPtr.c:26:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   26 |         printf("Ans of 5 * 6 is: %.2f\n", **(ArrayOfPtrs+2));
+      |                                  ~~~^     ~~~~~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:34: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:34: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:44: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                            ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:44: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:54: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                      ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:54: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:46: error: called object 'ArrayOfPtrs' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n", (**(ArrayOfPtrs)(5,6)));
+      |                                              ^
+..\src\InterviewExamsFunctionPtr.c:22:15: note: declared here
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |               ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:25:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   25 |         printf("Ans of 5 - 6 is: %.2f\n", **(ArrayOfPtrs+1));
+      |                                  ~~~^     ~~~~~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+..\src\InterviewExamsFunctionPtr.c:26:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   26 |         printf("Ans of 5 * 6 is: %.2f\n", **(ArrayOfPtrs+2));
+      |                                  ~~~^     ~~~~~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:34: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:34: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:44: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                            ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:44: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:54: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                      ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:54: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:46: error: called object 'ArrayOfPtrs' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n", (**(ArrayOfPtrs)(5,6)));
+      |                                              ^
+..\src\InterviewExamsFunctionPtr.c:22:15: note: declared here
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |               ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:25:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   25 |         printf("Ans of 5 - 6 is: %.2f\n", **(ArrayOfPtrs+1));
+      |                                  ~~~^     ~~~~~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+..\src\InterviewExamsFunctionPtr.c:26:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   26 |         printf("Ans of 5 * 6 is: %.2f\n", **(ArrayOfPtrs+2));
+      |                                  ~~~^     ~~~~~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:34: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:34: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:44: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                            ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:44: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:54: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                      ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:54: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:46: error: called object 'ArrayOfPtrs' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n", **((ArrayOfPtrs)(5,6)));
+      |                                              ^
+..\src\InterviewExamsFunctionPtr.c:22:15: note: declared here
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |               ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:25:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   25 |         printf("Ans of 5 - 6 is: %.2f\n", **(ArrayOfPtrs+1));
+      |                                  ~~~^     ~~~~~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+..\src\InterviewExamsFunctionPtr.c:26:37: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   26 |         printf("Ans of 5 * 6 is: %.2f\n", **(ArrayOfPtrs+2));
+      |                                  ~~~^     ~~~~~~~~~~~~~~~~~
+      |                                     |     |
+      |                                     |     int
+      |                                     double
+      |                                  %.2d
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:34: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:34: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:44: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                            ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:44: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:54: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                      ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:54: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:22:15: warning: unused variable 'ArrayOfPtrs' [-Wunused-variable]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |               ^~~~~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:34: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:34: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:44: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                            ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:44: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:54: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                      ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:54: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:43: error: called object 'ArrayOfPtrs' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",*ArrayOfPtrs(5,6));
+      |                                           ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:15: note: declared here
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |               ^~~~~~~~~~~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:34: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:34: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:44: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                            ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:44: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:54: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                      ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:54: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:43: error: called object is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",(*ArrayOfPtrs)(5,6));
+      |                                          ~^~~~~~~~~~~~~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:24:43: error: called object is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",(*ArrayOfPtrs)(5,6));
+      |                                          ~^~~~~~~~~~~~~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:37: warning: initialization of 'int' from 'float (*)(int,  int)' makes integer from pointer without a cast [-Wint-conversion]
+   22 |         int * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                     ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:37: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:47: warning: initialization of 'int' from 'float (*)(int,  int)' makes integer from pointer without a cast [-Wint-conversion]
+   22 |         int * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                               ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:47: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:57: warning: initialization of 'int' from 'float (*)(int,  int)' makes integer from pointer without a cast [-Wint-conversion]
+   22 |         int * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                         ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:57: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:23:11: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   23 |         x = ArrayOfPtrs[0];
+      |           ^
+..\src\InterviewExamsFunctionPtr.c:24:42: error: called object 'x' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",x(5,6));
+      |                                          ^
+..\src\InterviewExamsFunctionPtr.c:22:15: note: declared here
+   22 |         int * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |               ^
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:39: error: incompatible types when initializing type 'float' using type 'float (*)(int,  int)'
+   22 |         float * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                       ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:49: error: incompatible types when initializing type 'float' using type 'float (*)(int,  int)'
+   22 |         float * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                 ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:59: error: incompatible types when initializing type 'float' using type 'float (*)(int,  int)'
+   22 |         float * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                           ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:23:13: error: incompatible types when assigning to type 'float *' from type 'float'
+   23 |         x = ArrayOfPtrs[0];
+      |             ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:24:42: error: called object 'x' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",x(5,6));
+      |                                          ^
+..\src\InterviewExamsFunctionPtr.c:22:17: note: declared here
+   22 |         float * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                 ^
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:37: warning: initialization of 'int' from 'float (*)(int,  int)' makes integer from pointer without a cast [-Wint-conversion]
+   22 |         int * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                     ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:37: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:47: warning: initialization of 'int' from 'float (*)(int,  int)' makes integer from pointer without a cast [-Wint-conversion]
+   22 |         int * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                               ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:47: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:57: warning: initialization of 'int' from 'float (*)(int,  int)' makes integer from pointer without a cast [-Wint-conversion]
+   22 |         int * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                         ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:57: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:23:11: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   23 |         x = ArrayOfPtrs[0];
+      |           ^
+..\src\InterviewExamsFunctionPtr.c:24:42: error: called object 'x' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",x(5,6));
+      |                                          ^
+..\src\InterviewExamsFunctionPtr.c:22:15: note: declared here
+   22 |         int * x, ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |               ^
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:39: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                       ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:39: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:49: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                 ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:49: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:59: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                           ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:59: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:42: error: called object 'x' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",x(5,6));
+      |                                          ^
+..\src\InterviewExamsFunctionPtr.c:22:15: note: declared here
+   22 |         int * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |               ^
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:41: warning: initialization of 'float *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         float * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                         ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:41: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:51: warning: initialization of 'float *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         float * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                   ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:51: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:61: warning: initialization of 'float *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         float * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                             ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:61: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:42: error: called object 'x' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",x(5,6));
+      |                                          ^
+..\src\InterviewExamsFunctionPtr.c:22:17: note: declared here
+   22 |         float * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                 ^
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:41: warning: initialization of 'float *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         float * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                         ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:41: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:51: warning: initialization of 'float *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         float * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                   ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:51: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:61: warning: initialization of 'float *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         float * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                             ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:61: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:43: error: called object 'x' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",*x(5,6));
+      |                                           ^
+..\src\InterviewExamsFunctionPtr.c:22:17: note: declared here
+   22 |         float * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                 ^
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:39: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                       ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:39: note: (near initialization for 'ArrayOfPtrs[0]')
+..\src\InterviewExamsFunctionPtr.c:22:49: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                 ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:49: note: (near initialization for 'ArrayOfPtrs[1]')
+..\src\InterviewExamsFunctionPtr.c:22:59: warning: initialization of 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   22 |         int * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |                                                           ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:59: note: (near initialization for 'ArrayOfPtrs[2]')
+..\src\InterviewExamsFunctionPtr.c:24:42: error: called object 'x' is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",x(5,6));
+      |                                          ^
+..\src\InterviewExamsFunctionPtr.c:22:15: note: declared here
+   22 |         int * x, * ArrayOfPtrs [3] = {ptrToSum, ptrToSub, ptrToMul};
+      |               ^
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:23:25: warning: assignment to 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   23 |         ArrayOfPtrs [0] = ptrToSum;
+      |                         ^
+..\src\InterviewExamsFunctionPtr.c:24:42: error: called object is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",ArrayOfPtrs[0](5,6));
+      |                                          ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:15: warning: unused variable 'x' [-Wunused-variable]
+   22 |         int * x = NULL, * ArrayOfPtrs [3];
+      |               ^
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:23:25: warning: assignment to 'float *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   23 |         ArrayOfPtrs [0] = ptrToSum;
+      |                         ^
+..\src\InterviewExamsFunctionPtr.c:24:42: error: called object is not a function or function pointer
+   24 |         printf("Ans of 5 + 6 is: %.2f\n",ArrayOfPtrs[0](5,6));
+      |                                          ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:17: warning: unused variable 'x' [-Wunused-variable]
+   22 |         float * x = NULL, * ArrayOfPtrs [3];
+      |                 ^
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:23:25: warning: assignment to 'int *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   23 |         ArrayOfPtrs [0] = ptrToSum;
+      |                         ^
+..\src\InterviewExamsFunctionPtr.c:22:27: warning: variable 'ArrayOfPtrs' set but not used [-Wunused-but-set-variable]
+   22 |         int * x = NULL, * ArrayOfPtrs [3];
+      |                           ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:15: warning: unused variable 'x' [-Wunused-variable]
+   22 |         int * x = NULL, * ArrayOfPtrs [3];
+      |               ^
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:23:25: warning: assignment to 'float *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   23 |         ArrayOfPtrs [0] = ptrToSum;
+      |                         ^
+..\src\InterviewExamsFunctionPtr.c:22:17: warning: variable 'ArrayOfPtrs' set but not used [-Wunused-but-set-variable]
+   22 |         float * ArrayOfPtrs [3];
+      |                 ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:22:17: warning: unused variable 'ArrayOfPtrs' [-Wunused-variable]
+   22 |         float * ArrayOfPtrs [3];
+      |                 ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:18:18: warning: unused variable 'ptrToSum' [-Wunused-variable]
+   18 |         float (* ptrToSum)(int, int) = &sum;
+      |                  ^~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:24:24: warning: assignment to 'float *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   24 |         ArrayOfPtrs[0] = ptrToSum;
+      |                        ^
+..\src\InterviewExamsFunctionPtr.c:22:17: warning: variable 'ArrayOfPtrs' set but not used [-Wunused-but-set-variable]
+   22 |         float * ArrayOfPtrs [3];
+      |                 ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:24:26: error: incompatible types when assigning to type 'float *' from type 'float'
+   24 |         ArrayOfPtrs[0] = ptrToSum(5,6);
+      |                          ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:22:17: warning: variable 'ArrayOfPtrs' set but not used [-Wunused-but-set-variable]
+   22 |         float * ArrayOfPtrs [3];
+      |                 ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:24:24: warning: assignment to 'float *' from incompatible pointer type 'float (**)(int,  int)' [-Wincompatible-pointer-types]
+   24 |         ArrayOfPtrs[0] = &ptrToSum;
+      |                        ^
+..\src\InterviewExamsFunctionPtr.c:22:17: warning: variable 'ArrayOfPtrs' set but not used [-Wunused-but-set-variable]
+   22 |         float * ArrayOfPtrs [3];
+      |                 ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:24:24: warning: assignment to 'float *' from incompatible pointer type 'float (*)(int,  int)' [-Wincompatible-pointer-types]
+   24 |         ArrayOfPtrs[0] = ptrToSum;
+      |                        ^
+..\src\InterviewExamsFunctionPtr.c:22:17: warning: variable 'ArrayOfPtrs' set but not used [-Wunused-but-set-variable]
+   22 |         float * ArrayOfPtrs [3];
+      |                 ^~~~~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:18:18: warning: unused variable 'ptrToSum' [-Wunused-variable]
+   18 |         float (* ptrToSum)(int, int) = &sum;
+      |                  ^~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+..\src\InterviewExamsFunctionPtr.c: In function 'main':
+..\src\InterviewExamsFunctionPtr.c:20:18: warning: unused variable 'ptrToMul' [-Wunused-variable]
+   20 |         float (* ptrToMul)(int, int) = &mul;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:19:18: warning: unused variable 'ptrToSub' [-Wunused-variable]
+   19 |         float (* ptrToSub)(int, int) = &sub;
+      |                  ^~~~~~~~
+..\src\InterviewExamsFunctionPtr.c:18:18: warning: unused variable 'ptrToSum' [-Wunused-variable]
+   18 |         float (* ptrToSum)(int, int) = &sum;
+      |                  ^~~~~~~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsFunctionPtr.o" "..\\src\\InterviewExamsFunctionPtr.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsFunctionPtr.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\InterviewExamsArrayOfPtrsToFunctions.o" "..\\src\\InterviewExamsArrayOfPtrsToFunctions.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c:12:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   12 | {
+      | ^
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c:12:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   12 | {
+      | ^
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams
