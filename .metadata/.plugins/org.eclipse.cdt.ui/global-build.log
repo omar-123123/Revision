@@ -975,3 +975,215 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
 gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
 Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'main':
+..\src\structure.c:26:11: warning: unused variable 'st1' [-Wunused-variable]
+   26 |         S st1 = {"Omar", 20240318, 2};
+      |           ^~~
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'main':
+..\src\structure.c:30:17: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[20]' [-Wformat=]
+   30 |         scanf("%s", &(st1.name));
+      |                ~^   ~~~~~~~~~~~
+      |                 |   |
+      |                 |   char (*)[20]
+      |                 char *
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:62:52: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   62 |                 printf("Student number (%d) name: %s\n", (i+1), *(ptrToStruct + i)->name);
+      |                                                   ~^            ~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                    |            |
+      |                                                    char *       int
+      |                                                   %d
+..\src\structure.c:63:63: error: invalid type argument of unary '*' (have 'int')
+   63 |                 printf("Student number (%d) ID: %d\n", (i+1), *(ptrToStruct + i)->id);
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~
+..\src\structure.c:64:66: error: invalid type argument of unary '*' (have 'int')
+   64 |                 printf("Student number (%d) grade: %d\n", (i+1), *(ptrToStruct + i)->grade);
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:62:52: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   62 |                 printf("Student number (%d) name: %s\n", (i+1), (*(ptrToStruct + i)->name));
+      |                                                   ~^            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                    |             |
+      |                                                    char *        int
+      |                                                   %d
+..\src\structure.c:63:63: error: invalid type argument of unary '*' (have 'int')
+   63 |                 printf("Student number (%d) ID: %d\n", (i+1), *(ptrToStruct + i)->id);
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~
+..\src\structure.c:64:66: error: invalid type argument of unary '*' (have 'int')
+   64 |                 printf("Student number (%d) grade: %d\n", (i+1), *(ptrToStruct + i)->grade);
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:63:52: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   63 |                 printf("Student number (%d) name: %s\n", (i+1), (*(ptrToStruct + i)->name));
+      |                                                   ~^            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                    |             |
+      |                                                    char *        int
+      |                                                   %d
+..\src\structure.c:64:63: error: invalid type argument of unary '*' (have 'int')
+   64 |                 printf("Student number (%d) ID: %d\n", (i+1), *(ptrToStruct + i)->id);
+      |                                                               ^~~~~~~~~~~~~~~~~~~~~~
+..\src\structure.c:65:66: error: invalid type argument of unary '*' (have 'int')
+   65 |                 printf("Student number (%d) grade: %d\n", (i+1), *(ptrToStruct + i)->grade);
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:63:51: warning: format '%s' expects a matching 'char *' argument [-Wformat=]
+   63 |                 printf("Name of (%d) student is: %s",(*(ptrToStruct+ i)->name));
+      |                                                  ~^
+      |                                                   |
+      |                                                   char *
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:63:51: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   63 |                 printf("Name of (%d) student is: %s",(i+1),(*(ptrToStruct+ i)->name));
+      |                                                  ~^        ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                   |         |
+      |                                                   char *    int
+      |                                                  %d
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:63:77: error: invalid type argument of '->' (have 'int')
+   63 |                 printf("Name of (%d) student is: %s",(i+1),(*ptrToStruct + i->name));
+      |                                                                             ^~
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:63:75: error: invalid operands to binary + (have 'Student' and 'int')
+   63 |                 printf("Name of (%d) student is: %s",(i+1),((*ptrToStruct + i)->name));
+      |                                                              ~~~~~~~~~~~~ ^
+      |                                                              |
+      |                                                              Student
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:63:51: warning: format '%s' expects argument of type 'char *', but argument 3 has type 'int' [-Wformat=]
+   63 |                 printf("Name of (%d) student is: %s",(i+1),(*(ptrToStruct + i)->name));
+      |                                                  ~^        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                   |         |
+      |                                                   char *    int
+      |                                                  %d
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:63:46: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   63 |                 printf("Name of student is: %s",(*(ptrToStruct + i)->name));
+      |                                             ~^  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |   |
+      |                                              |   int
+      |                                              char *
+      |                                             %d
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:63:46: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   63 |                 printf("Name of student is: %s",(*(ptrToStruct)->name));
+      |                                             ~^  ~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |   |
+      |                                              |   int
+      |                                              char *
+      |                                             %d
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+..\src\structure.c: In function 'printArrStruct':
+..\src\structure.c:63:46: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+   63 |                 printf("Name of student is: %s",(*(ptrToStruct->name)));
+      |                                             ~^  ~~~~~~~~~~~~~~~~~~~~~~
+      |                                              |   |
+      |                                              |   int
+      |                                              char *
+      |                                             %d
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams
+??:??:?? **** Incremental Build of configuration Debug for project InterviewExams ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\structure.o" "..\\src\\structure.c" 
+gcc -o InterviewExams.exe "src\\InterviewExams.o" "src\\InterviewExams2.o" "src\\InterviewExamsArrayOfPtrsToFunctions.o" "src\\InterviewExamsStrcpyAndStrDup.o" "src\\InterviewExamsTryFgets.o" "src\\structure.o" 
+Info: Nothing to build for InterviewExams

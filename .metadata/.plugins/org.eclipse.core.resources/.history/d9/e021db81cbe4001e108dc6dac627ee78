@@ -33,7 +33,7 @@ int main()
 
 	Student arr_struct [ARRAY_SIZE];
 	insertFun(arr_struct, ARRAY_SIZE);
-	printArrStruct(arr_struct, ARRAY_SIZE);
+//	printf("name of 1st student is: %s", (*(arr_struct+1)).name);
     return 0;
 }
 
@@ -57,12 +57,10 @@ int insertFun (Student * ptrToStruct, int array_size)
 void printArrStruct (Student * ptrToStruct, int array_size)
 {
 	int i;
-	printf("=================================\n");
 	for (i = 0; i< array_size; i++)
 	{
-		printf("Name of student n.%d is: %s\n",(i+1),((ptrToStruct + i)->name));
-		printf("ID of student n.%d is: %d\n",(i+1),((ptrToStruct + i)->id));
-		printf("Grade of student n.%d is: %d\n",(i+1),((ptrToStruct + i)->grade));
+		printf("=================================\n");
+		printf("Name of (%d) student is: %s",(i+1),(*ptrToStruct + i->name));
 		printf("=================================\n");
 	}
 }

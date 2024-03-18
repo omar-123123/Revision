@@ -1,0 +1,25 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+typedef struct student
+{
+	char name [20];
+	int id;
+	int grade;
+}S;
+
+
+int main()
+{
+	S st1 = {"Omar", 20240318, 2};
+	printf("name is: %s\n",st1.name);
+    return 0;
+}
+

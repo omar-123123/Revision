@@ -57,7 +57,6 @@ int insertFun (Student * ptrToStruct, int array_size)
 void printArrStruct (Student * ptrToStruct, int array_size)
 {
 	int i;
-	printf("=================================\n");
 	for (i = 0; i< array_size; i++)
 	{
 		printf("Name of student n.%d is: %s\n",(i+1),((ptrToStruct + i)->name));
